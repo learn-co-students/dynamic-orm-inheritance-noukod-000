@@ -9,7 +9,7 @@
 
 The great thing about a Dynamic ORM is that it provides us with a way to write an ORM that is almost entirely abstract. In other words, the methods we write that allow a given Ruby class and instances to communicate with a database are *not specific to any one class*. 
 
-This means we can use such methods again and again. We can define them in only one place and simply make them availablbe, via inheritance, to any other class in our program. 
+This means we can use such methods again and again. We can define them in only one place and simply make them available, via inheritance, to any other class in our program. 
 
 ## The Super Class
 
@@ -59,5 +59,3 @@ As we begin to build complex web applications using Sinatra and Rails, this patt
 
 
 
-
-<a href='https://learn.co/lessons/dynamic-orm-inheritance' data-visibility='hidden'>View this lesson on Learn.co</a>
