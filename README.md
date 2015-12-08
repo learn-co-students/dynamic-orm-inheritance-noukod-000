@@ -38,7 +38,7 @@ song.save
 DB[:conn].execute("SELECT * FROM songs")
 ```
 
-Here we create a new `Song` instance, `puts` out some information about it, save it to the database and then retreive it from the database. The `#create`, `#save` and `#find_by_name` methods used here where inherited by `Song`, from `InteractiveRecord`. 
+Here we create a new `Song` instance, `puts` out some information about it, save it to the database and then retreive it from the database. The `#create`, `#save` and `#find_by_name` methods used here were inherited by `Song`, from `InteractiveRecord`. 
 
 If you run this file, you should see the following in your terminal:
 
