@@ -59,3 +59,5 @@ As we begin to build complex web applications using Sinatra and Rails, this patt
 
 
 
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/dynamic-orm-inheritance' title='Dynamic ORM with Inheritance'>Dynamic ORM with Inheritance</a> on Learn.co and start learning to code for free.</p>
