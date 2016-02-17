@@ -38,7 +38,7 @@ song.save
 DB[:conn].execute("SELECT * FROM songs")
 ```
 
-Here we create a new `Song` instance, `puts` out some information about it, save it to the database and then retreive it from the database. The `#create`, `#save` and `#find_by_name` methods used here were inherited by `Song`, from `InteractiveRecord`. 
+Here we create a new `Song` instance, `puts` out some information about it, save it to the database and then retrieve it from the database. The `#create`, `#save` and `#find_by_name` methods used here were inherited by `Song`, from `InteractiveRecord`. 
 
 If you run this file, you should see the following in your terminal:
 
@@ -60,4 +60,4 @@ As we begin to build complex web applications using Sinatra and Rails, this patt
 
 
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/dynamic-orm-inheritance' title='Dynamic ORM with Inheritance'>Dynamic ORM with Inheritance</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/dynamic-orm-inheritance'>Dynamic ORMs with Inheritance</a> on Learn.co and start learning to code for free.</p>
