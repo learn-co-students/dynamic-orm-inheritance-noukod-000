@@ -11,7 +11,6 @@ class InteractiveRecord
     DB[:conn].results_as_hash = true
 
     sql = "pragma table_info('#{table_name}')"
-
     table_info = DB[:conn].execute(sql)
     column_names = []
     table_info.each do |row|
@@ -52,5 +51,4 @@ class InteractiveRecord
     sql = "SELECT * FROM #{self.table_name} WHERE name = '#{name}'"
     DB[:conn].execute(sql)
   end
-
 end
